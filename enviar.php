@@ -12,8 +12,8 @@ $mail->IsSMTP();//Mailer to send message using SMTP
 $mail->Host = 'smtp.fibertel.com.ar';//Sets the SMTP hosts of your Email hosting
 $mail->Port = '25';//the default SMTP server port
 $mail->SMTPAuth = true;//SMTP authentication. Utilizes the Username and Password variables
-$mail->Username = 'miyel@fibertel.com.ar';//SMTP username
-$mail->Password = '43miyel21';//SMTP password
+$mail->Username = 'usuario@correo.com';//SMTP username
+$mail->Password = '*******';//SMTP password
 $mail->SMTPSecure = '';//Connection prefix. Options are "", "ssl" or "tls"
 $mail->From = 'info@origen.com.ar';//the From email address for the message
 $mail->FromName = 'Clinica SCC';//Sets the From name of the message
