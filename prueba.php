@@ -15,14 +15,14 @@ try {
     $mail->isSMTP();                                      // Set mailer to use SMTP
     $mail->Host = 'smtp-mail.outlook.com';                  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'pastotdf@hotmail.com';             // SMTP username
+    $mail->Username = 'usuario@hotmail.com';             // SMTP username
     $mail->Password = '*******';                           // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable SSL encryption, TLS also accepted with port 465
     $mail->Port = 587;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('luisuriarte@gmail.com', 'Mailer');          //This is the email your form sends From
-    $mail->addAddress('luisuriarte@gmail.com', 'Luis'); // Add a recipient address
+    $mail->setFrom('persona@gmail.com', 'Mailer');          //This is the email your form sends From
+    $mail->addAddress('persona@gmail.com', 'Luis'); // Add a recipient address
     //$mail->addAddress('contact@example.com');               // Name is optional
     //$mail->addReplyTo('info@example.com', 'Information');
     //$mail->addCC('cc@example.com');
