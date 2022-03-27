@@ -17,7 +17,7 @@ $result = $statement->fetchAll();
 <!DOCTYPE html>
 <html>
 <head>
-<title>Enviar varios email usando PHPMAILER con PHP y Ajax</title>
+<title>Recordatorios</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -25,12 +25,12 @@ $result = $statement->fetchAll();
 <body>
 <br />
 <div class="container">
-<h3 align="left">Enviar varios email usando PHPMAILER con PHP y Ajax</h3>
+<h3 align="left">Enviar Recordatorios de Turnos</h3>
 <br />
 <div class="table-responsive">
 <table class="table table-bordered table-striped">
 <tr>
-<th>Nombre clientes</th>
+<th>Nombre Pacientes</th>
 <th>Correo</th>
 <th>Fecha Turno</th>
 <th>Hora Turno</th>
