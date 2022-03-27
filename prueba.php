@@ -16,7 +16,7 @@ try {
     $mail->Host = 'smtp-mail.outlook.com';                  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'pastotdf@hotmail.com';             // SMTP username
-    $mail->Password = '43Miyel21';                           // SMTP password
+    $mail->Password = '*******';                           // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable SSL encryption, TLS also accepted with port 465
     $mail->Port = 587;                                    // TCP port to connect to
 
